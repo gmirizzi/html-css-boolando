@@ -93,10 +93,10 @@ html {
     margin: .2em 0;
 }
 
-.preview:hover .display {
+.article:hover .display {
     display: none;
 }
 
-.preview:hover .hoverimg {
+.article:hover .hoverimg {
     display: initial;
 }
