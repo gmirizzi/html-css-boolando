@@ -33,6 +33,10 @@ html {
     object-fit: cover;
 }
 
+.hoverimg {
+    display: none;
+}
+
 .preview > span {
     padding: 0.5em;
     background-color: white;
@@ -87,4 +91,12 @@ html {
 
 .brand, .name, .price {
     margin: .2em 0;
+}
+
+.preview:hover .display {
+    display: none;
+}
+
+.preview:hover .hoverimg {
+    display: initial;
 }
