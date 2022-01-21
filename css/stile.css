@@ -38,11 +38,14 @@ html {
 }
 
 .preview > span {
-    padding: 0.5em;
     background-color: white;
     position:absolute;
     top: 10px;
     right: 0;
+    height: 2em;
+    width: 2em;
+    text-align: center;
+    line-height: 2em;
 }
 
 .sconto {
